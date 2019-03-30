@@ -1,13 +1,8 @@
-TypeScript React Select "styles" Set "menuList" Height Demo
+TypeScript React Select Styles with CSS Demo
 ===========================================================
 
-如何使用`styles`属性来定义样式。
-
-文档：https://react-select.com/styles
-
-注意里面的style keys，通常指的就是一个个小部件，可以一个个试。
-
-除此之外，还可以使用普通的css方式，在另一个Demo中尝试。
+如何使用CSS来设置样式。关键就在于，提供了`className`和`classNamePrefix`这两个参数以后，
+生成的HTML就会增加确定的样式，可以让我们通过普通的CSS来设置样式。这个很好。
 
 ```
 npm install
